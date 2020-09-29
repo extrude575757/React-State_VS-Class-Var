@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 1rem;
+}
+
+hr {
+  background: whitesmoke;
+  border: none;
+  height: 2px;
+  margin: 2rem 0;
+}
+
+.CounterContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+
+.Counter {
+  border: 1px solid whitesmoke;
+  box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.125);
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 0.5rem;
+}
+
+.Counter--good .Button {
+  background: green;
+}
+
+.Counter--warning .Button {
+  background: orange;
+}
+
+.Counter--error .Button {
+  background: red;
+}
+
+.Counter__title {
+  margin: 0;
+}
+
+.Counter__details {
+  margin: 0;
+}
+
+.Counter__value {
+  background: whitesmoke;
+  padding: 0.5rem;
+}
+
+.Counter__value,
+.Button {
+  font-size: 1.5rem;
+}
+
+.Button {
+  background: dodgerblue;
+  border: 1px solid transparent;
+  color: white;
+}
+
+.Button--alt {
+  background: transparent;
+  border: 1px solid dodgerblue;
+  color: dodgerblue;
+}
